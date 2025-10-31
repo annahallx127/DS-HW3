@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 3 — D3 Visualizations</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+    h1 { font-size: 1.4rem; margin: 28px 0 8px; }
+    .chart-wrap { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-bottom: 20px; }
+    .caption { color: #6b7280; font-size: 0.9rem; margin-top: 8px; }
+    svg { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>Solution: Box Plot (Likes by Age Group)</h1>
+  <div id="boxplot" class="chart-wrap"></div>
+
+  <h1>Solution: Side‑by‑Side Grouped Bar Chart</h1>
+  <div id="barplot" class="chart-wrap"></div>
+
+  <h1>Solution: Time‑Series Line Plot</h1>
+  <div id="lineplot" class="chart-wrap"></div>
+
+  <div class="caption">All three charts are rendered with D3 v7 from local CSVs.</div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="templete.js"></script>
+</body>
+</html>
